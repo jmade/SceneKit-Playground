@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		493537F81CD80F7D0071E524 /* BaseGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 4935379B1CD80F7D0071E524 /* BaseGeometry.m */; };
+		493537F91CD80F7D0071E524 /* BezierUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 4935379D1CD80F7D0071E524 /* BezierUtilities.m */; };
+		493537FD1CD80F7D0071E524 /* Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = 493537A61CD80F7D0071E524 /* Colours.m */; };
+		493537FE1CD80F7D0071E524 /* _FBColorComponentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 493537A91CD80F7D0071E524 /* _FBColorComponentCell.m */; };
+		493537FF1CD80F7D0071E524 /* _FBColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 493537AB1CD80F7D0071E524 /* _FBColorUtils.m */; };
+		493538001CD80F7D0071E524 /* _FBColorWheelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 493537AD1CD80F7D0071E524 /* _FBColorWheelCell.m */; };
+		493538011CD80F7D0071E524 /* _FBKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 493537AF1CD80F7D0071E524 /* _FBKeyboardManager.m */; };
+		493538021CD80F7D0071E524 /* _FBSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 493537B11CD80F7D0071E524 /* _FBSliderView.m */; };
+		493538031CD80F7D0071E524 /* _FBTweakArrayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493537B31CD80F7D0071E524 /* _FBTweakArrayViewController.m */; };
+		493538041CD80F7D0071E524 /* _FBTweakBindObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 493537B51CD80F7D0071E524 /* _FBTweakBindObserver.m */; };
+		493538051CD80F7D0071E524 /* _FBTweakCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493537B71CD80F7D0071E524 /* _FBTweakCategoryViewController.m */; };
+		493538061CD80F7D0071E524 /* _FBTweakCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493537B91CD80F7D0071E524 /* _FBTweakCollectionViewController.m */; };
+		493538071CD80F7D0071E524 /* _FBTweakColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493537BB1CD80F7D0071E524 /* _FBTweakColorViewController.m */; };
+		493538081CD80F7D0071E524 /* _FBTweakColorViewControllerHSBDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 493537BE1CD80F7D0071E524 /* _FBTweakColorViewControllerHSBDataSource.m */; };
+		493538091CD80F7D0071E524 /* _FBTweakColorViewControllerRGBDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 493537C01CD80F7D0071E524 /* _FBTweakColorViewControllerRGBDataSource.m */; };
+		4935380A1CD80F7D0071E524 /* _FBTweakDictionaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493537C21CD80F7D0071E524 /* _FBTweakDictionaryViewController.m */; };
+		4935380B1CD80F7D0071E524 /* _FBTweakTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 493537C41CD80F7D0071E524 /* _FBTweakTableViewCell.m */; };
+		4935380C1CD80F7D0071E524 /* FBTweak.m in Sources */ = {isa = PBXBuildFile; fileRef = 493537C71CD80F7D0071E524 /* FBTweak.m */; };
+		4935380D1CD80F7D0071E524 /* FBTweakCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 493537C91CD80F7D0071E524 /* FBTweakCategory.m */; };
+		4935380E1CD80F7D0071E524 /* FBTweakCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 493537CB1CD80F7D0071E524 /* FBTweakCollection.m */; };
+		4935380F1CD80F7D0071E524 /* FBTweakInline.m in Sources */ = {isa = PBXBuildFile; fileRef = 493537CE1CD80F7D0071E524 /* FBTweakInline.m */; };
+		493538101CD80F7D0071E524 /* FBTweakShakeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 493537D11CD80F7D0071E524 /* FBTweakShakeWindow.m */; };
+		493538111CD80F7D0071E524 /* FBTweakStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 493537D31CD80F7D0071E524 /* FBTweakStore.m */; };
+		493538121CD80F7D0071E524 /* FBTweakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493537D51CD80F7D0071E524 /* FBTweakViewController.m */; };
+		493538131CD80F7D0071E524 /* JDMGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 493537D71CD80F7D0071E524 /* JDMGradientLayer.m */; };
+		4935381B1CD80F7D0071E524 /* SceneKit Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 493537F01CD80F7D0071E524 /* SceneKit Additions.m */; };
+		49510A971ABF3F660006C55F /* JDMMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 49510A961ABF3F660006C55F /* JDMMesh.m */; };
+		4963FF5F1A7EAE80001F45EB /* JDMTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4963FF5E1A7EAE80001F45EB /* JDMTouchView.m */; };
+		498E3D031A829CB30049741C /* JDMControlScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 498E3D021A829CB30049741C /* JDMControlScrollView.m */; };
+		498E3D061A9182370049741C /* JDMMotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 498E3D051A9182370049741C /* JDMMotionManager.m */; };
+		49AD837C1A76B512000683D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AD837B1A76B512000683D0 /* main.m */; };
+		49AD837F1A76B512000683D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AD837E1A76B512000683D0 /* AppDelegate.m */; };
+		49AD83811A76B512000683D0 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 49AD83801A76B512000683D0 /* art.scnassets */; };
+		49AD83841A76B512000683D0 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AD83831A76B512000683D0 /* GameViewController.m */; };
+		49AD83871A76B512000683D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49AD83851A76B512000683D0 /* Main.storyboard */; };
+		49AD83891A76B512000683D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49AD83881A76B512000683D0 /* Images.xcassets */; };
+		49AD838C1A76B512000683D0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49AD838A1A76B512000683D0 /* LaunchScreen.xib */; };
+		49AD83981A76B512000683D0 /* SceneKit_PlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AD83971A76B512000683D0 /* SceneKit_PlaygroundTests.m */; };
+		49AD84171A7956D9000683D0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AD84161A7956D9000683D0 /* AVFoundation.framework */; };
+		49B4401D1AC4C58C0073A08B /* JDMGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B4401C1AC4C58C0073A08B /* JDMGeometry.m */; };
+		49D469D71C78236000D6546E /* lego.scn in Resources */ = {isa = PBXBuildFile; fileRef = 49D469D61C78236000D6546E /* lego.scn */; };
+		49D806861AAA1441009DFBB8 /* JDMCharacterNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D806851AAA1441009DFBB8 /* JDMCharacterNode.m */; };
+		49D8068A1AAA16B9009DFBB8 /* JDMNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D806891AAA16B9009DFBB8 /* JDMNode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49AD83921A76B512000683D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49AD836E1A76B512000683D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49AD83751A76B512000683D0;
+			remoteInfo = "SceneKit Playground";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4935379A1CD80F7D0071E524 /* BaseGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseGeometry.h; sourceTree = "<group>"; };
+		4935379B1CD80F7D0071E524 /* BaseGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseGeometry.m; sourceTree = "<group>"; };
+		4935379C1CD80F7D0071E524 /* BezierUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierUtilities.h; sourceTree = "<group>"; };
+		4935379D1CD80F7D0071E524 /* BezierUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierUtilities.m; sourceTree = "<group>"; };
+		493537A51CD80F7D0071E524 /* Colours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colours.h; sourceTree = "<group>"; };
+		493537A61CD80F7D0071E524 /* Colours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colours.m; sourceTree = "<group>"; };
+		493537A81CD80F7D0071E524 /* _FBColorComponentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBColorComponentCell.h; sourceTree = "<group>"; };
+		493537A91CD80F7D0071E524 /* _FBColorComponentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBColorComponentCell.m; sourceTree = "<group>"; };
+		493537AA1CD80F7D0071E524 /* _FBColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBColorUtils.h; sourceTree = "<group>"; };
+		493537AB1CD80F7D0071E524 /* _FBColorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBColorUtils.m; sourceTree = "<group>"; };
+		493537AC1CD80F7D0071E524 /* _FBColorWheelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBColorWheelCell.h; sourceTree = "<group>"; };
+		493537AD1CD80F7D0071E524 /* _FBColorWheelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBColorWheelCell.m; sourceTree = "<group>"; };
+		493537AE1CD80F7D0071E524 /* _FBKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBKeyboardManager.h; sourceTree = "<group>"; };
+		493537AF1CD80F7D0071E524 /* _FBKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBKeyboardManager.m; sourceTree = "<group>"; };
+		493537B01CD80F7D0071E524 /* _FBSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBSliderView.h; sourceTree = "<group>"; };
+		493537B11CD80F7D0071E524 /* _FBSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBSliderView.m; sourceTree = "<group>"; };
+		493537B21CD80F7D0071E524 /* _FBTweakArrayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBTweakArrayViewController.h; sourceTree = "<group>"; };
+		493537B31CD80F7D0071E524 /* _FBTweakArrayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBTweakArrayViewController.m; sourceTree = "<group>"; };
+		493537B41CD80F7D0071E524 /* _FBTweakBindObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBTweakBindObserver.h; sourceTree = "<group>"; };
+		493537B51CD80F7D0071E524 /* _FBTweakBindObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBTweakBindObserver.m; sourceTree = "<group>"; };
+		493537B61CD80F7D0071E524 /* _FBTweakCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBTweakCategoryViewController.h; sourceTree = "<group>"; };
+		493537B71CD80F7D0071E524 /* _FBTweakCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBTweakCategoryViewController.m; sourceTree = "<group>"; };
+		493537B81CD80F7D0071E524 /* _FBTweakCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBTweakCollectionViewController.h; sourceTree = "<group>"; };
+		493537B91CD80F7D0071E524 /* _FBTweakCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBTweakCollectionViewController.m; sourceTree = "<group>"; };
+		493537BA1CD80F7D0071E524 /* _FBTweakColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBTweakColorViewController.h; sourceTree = "<group>"; };
+		493537BB1CD80F7D0071E524 /* _FBTweakColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBTweakColorViewController.m; sourceTree = "<group>"; };
+		493537BC1CD80F7D0071E524 /* _FBTweakColorViewControllerDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBTweakColorViewControllerDataSource.h; sourceTree = "<group>"; };
+		493537BD1CD80F7D0071E524 /* _FBTweakColorViewControllerHSBDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBTweakColorViewControllerHSBDataSource.h; sourceTree = "<group>"; };
+		493537BE1CD80F7D0071E524 /* _FBTweakColorViewControllerHSBDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBTweakColorViewControllerHSBDataSource.m; sourceTree = "<group>"; };
+		493537BF1CD80F7D0071E524 /* _FBTweakColorViewControllerRGBDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBTweakColorViewControllerRGBDataSource.h; sourceTree = "<group>"; };
+		493537C01CD80F7D0071E524 /* _FBTweakColorViewControllerRGBDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBTweakColorViewControllerRGBDataSource.m; sourceTree = "<group>"; };
+		493537C11CD80F7D0071E524 /* _FBTweakDictionaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBTweakDictionaryViewController.h; sourceTree = "<group>"; };
+		493537C21CD80F7D0071E524 /* _FBTweakDictionaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBTweakDictionaryViewController.m; sourceTree = "<group>"; };
+		493537C31CD80F7D0071E524 /* _FBTweakTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBTweakTableViewCell.h; sourceTree = "<group>"; };
+		493537C41CD80F7D0071E524 /* _FBTweakTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBTweakTableViewCell.m; sourceTree = "<group>"; };
+		493537C51CD80F7D0071E524 /* FBTweak-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBTweak-Prefix.pch"; sourceTree = "<group>"; };
+		493537C61CD80F7D0071E524 /* FBTweak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweak.h; sourceTree = "<group>"; };
+		493537C71CD80F7D0071E524 /* FBTweak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTweak.m; sourceTree = "<group>"; };
+		493537C81CD80F7D0071E524 /* FBTweakCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweakCategory.h; sourceTree = "<group>"; };
+		493537C91CD80F7D0071E524 /* FBTweakCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTweakCategory.m; sourceTree = "<group>"; };
+		493537CA1CD80F7D0071E524 /* FBTweakCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweakCollection.h; sourceTree = "<group>"; };
+		493537CB1CD80F7D0071E524 /* FBTweakCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTweakCollection.m; sourceTree = "<group>"; };
+		493537CC1CD80F7D0071E524 /* FBTweakEnabled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweakEnabled.h; sourceTree = "<group>"; };
+		493537CD1CD80F7D0071E524 /* FBTweakInline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweakInline.h; sourceTree = "<group>"; };
+		493537CE1CD80F7D0071E524 /* FBTweakInline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTweakInline.m; sourceTree = "<group>"; };
+		493537CF1CD80F7D0071E524 /* FBTweakInlineInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweakInlineInternal.h; sourceTree = "<group>"; };
+		493537D01CD80F7D0071E524 /* FBTweakShakeWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweakShakeWindow.h; sourceTree = "<group>"; };
+		493537D11CD80F7D0071E524 /* FBTweakShakeWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTweakShakeWindow.m; sourceTree = "<group>"; };
+		493537D21CD80F7D0071E524 /* FBTweakStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweakStore.h; sourceTree = "<group>"; };
+		493537D31CD80F7D0071E524 /* FBTweakStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTweakStore.m; sourceTree = "<group>"; };
+		493537D41CD80F7D0071E524 /* FBTweakViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweakViewController.h; sourceTree = "<group>"; };
+		493537D51CD80F7D0071E524 /* FBTweakViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTweakViewController.m; sourceTree = "<group>"; };
+		493537D61CD80F7D0071E524 /* JDMGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDMGradientLayer.h; sourceTree = "<group>"; };
+		493537D71CD80F7D0071E524 /* JDMGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDMGradientLayer.m; sourceTree = "<group>"; };
+		493537D81CD80F7D0071E524 /* JDMUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDMUtility.h; sourceTree = "<group>"; };
+		493537EF1CD80F7D0071E524 /* SceneKit Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SceneKit Additions.h"; sourceTree = "<group>"; };
+		493537F01CD80F7D0071E524 /* SceneKit Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SceneKit Additions.m"; sourceTree = "<group>"; };
+		49510A951ABF3F660006C55F /* JDMMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDMMesh.h; sourceTree = "<group>"; };
+		49510A961ABF3F660006C55F /* JDMMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDMMesh.m; sourceTree = "<group>"; };
+		4963FF5D1A7EAE80001F45EB /* JDMTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDMTouchView.h; sourceTree = "<group>"; };
+		4963FF5E1A7EAE80001F45EB /* JDMTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDMTouchView.m; sourceTree = "<group>"; };
+		498E3D011A829CB30049741C /* JDMControlScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDMControlScrollView.h; sourceTree = "<group>"; };
+		498E3D021A829CB30049741C /* JDMControlScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDMControlScrollView.m; sourceTree = "<group>"; };
+		498E3D041A9182370049741C /* JDMMotionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDMMotionManager.h; sourceTree = "<group>"; };
+		498E3D051A9182370049741C /* JDMMotionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDMMotionManager.m; sourceTree = "<group>"; };
+		498E3D071A990ED40049741C /* JDMMotionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDMMotionProtocol.h; sourceTree = "<group>"; };
+		49AD83761A76B512000683D0 /* SceneKit Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SceneKit Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49AD837A1A76B512000683D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49AD837B1A76B512000683D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49AD837D1A76B512000683D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49AD837E1A76B512000683D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49AD83801A76B512000683D0 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		49AD83821A76B512000683D0 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		49AD83831A76B512000683D0 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		49AD83861A76B512000683D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49AD83881A76B512000683D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		49AD838B1A76B512000683D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		49AD83911A76B512000683D0 /* SceneKit PlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SceneKit PlaygroundTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49AD83961A76B512000683D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49AD83971A76B512000683D0 /* SceneKit_PlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneKit_PlaygroundTests.m; sourceTree = "<group>"; };
+		49AD84161A7956D9000683D0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		49B4401B1AC4C58C0073A08B /* JDMGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDMGeometry.h; sourceTree = "<group>"; };
+		49B4401C1AC4C58C0073A08B /* JDMGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDMGeometry.m; sourceTree = "<group>"; };
+		49D469D61C78236000D6546E /* lego.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = lego.scn; sourceTree = "<group>"; };
+		49D806851AAA1441009DFBB8 /* JDMCharacterNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDMCharacterNode.m; sourceTree = "<group>"; };
+		49D806871AAA1495009DFBB8 /* JDMCharacterNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDMCharacterNode.h; sourceTree = "<group>"; };
+		49D806881AAA16B9009DFBB8 /* JDMNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDMNode.h; sourceTree = "<group>"; };
+		49D806891AAA16B9009DFBB8 /* JDMNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDMNode.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49AD83731A76B512000683D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49AD84171A7956D9000683D0 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49AD838E1A76B512000683D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		493537991CD80F7D0071E524 /* JDMUtility */ = {
+			isa = PBXGroup;
+			children = (
+				4935379A1CD80F7D0071E524 /* BaseGeometry.h */,
+				4935379B1CD80F7D0071E524 /* BaseGeometry.m */,
+				4935379C1CD80F7D0071E524 /* BezierUtilities.h */,
+				4935379D1CD80F7D0071E524 /* BezierUtilities.m */,
+				493537A51CD80F7D0071E524 /* Colours.h */,
+				493537A61CD80F7D0071E524 /* Colours.m */,
+				493537A71CD80F7D0071E524 /* FBTweak */,
+				493537D61CD80F7D0071E524 /* JDMGradientLayer.h */,
+				493537D71CD80F7D0071E524 /* JDMGradientLayer.m */,
+				493537D81CD80F7D0071E524 /* JDMUtility.h */,
+				493537EF1CD80F7D0071E524 /* SceneKit Additions.h */,
+				493537F01CD80F7D0071E524 /* SceneKit Additions.m */,
+			);
+			path = JDMUtility;
+			sourceTree = "<group>";
+		};
+		493537A71CD80F7D0071E524 /* FBTweak */ = {
+			isa = PBXGroup;
+			children = (
+				493537A81CD80F7D0071E524 /* _FBColorComponentCell.h */,
+				493537A91CD80F7D0071E524 /* _FBColorComponentCell.m */,
+				493537AA1CD80F7D0071E524 /* _FBColorUtils.h */,
+				493537AB1CD80F7D0071E524 /* _FBColorUtils.m */,
+				493537AC1CD80F7D0071E524 /* _FBColorWheelCell.h */,
+				493537AD1CD80F7D0071E524 /* _FBColorWheelCell.m */,
+				493537AE1CD80F7D0071E524 /* _FBKeyboardManager.h */,
+				493537AF1CD80F7D0071E524 /* _FBKeyboardManager.m */,
+				493537B01CD80F7D0071E524 /* _FBSliderView.h */,
+				493537B11CD80F7D0071E524 /* _FBSliderView.m */,
+				493537B21CD80F7D0071E524 /* _FBTweakArrayViewController.h */,
+				493537B31CD80F7D0071E524 /* _FBTweakArrayViewController.m */,
+				493537B41CD80F7D0071E524 /* _FBTweakBindObserver.h */,
+				493537B51CD80F7D0071E524 /* _FBTweakBindObserver.m */,
+				493537B61CD80F7D0071E524 /* _FBTweakCategoryViewController.h */,
+				493537B71CD80F7D0071E524 /* _FBTweakCategoryViewController.m */,
+				493537B81CD80F7D0071E524 /* _FBTweakCollectionViewController.h */,
+				493537B91CD80F7D0071E524 /* _FBTweakCollectionViewController.m */,
+				493537BA1CD80F7D0071E524 /* _FBTweakColorViewController.h */,
+				493537BB1CD80F7D0071E524 /* _FBTweakColorViewController.m */,
+				493537BC1CD80F7D0071E524 /* _FBTweakColorViewControllerDataSource.h */,
+				493537BD1CD80F7D0071E524 /* _FBTweakColorViewControllerHSBDataSource.h */,
+				493537BE1CD80F7D0071E524 /* _FBTweakColorViewControllerHSBDataSource.m */,
+				493537BF1CD80F7D0071E524 /* _FBTweakColorViewControllerRGBDataSource.h */,
+				493537C01CD80F7D0071E524 /* _FBTweakColorViewControllerRGBDataSource.m */,
+				493537C11CD80F7D0071E524 /* _FBTweakDictionaryViewController.h */,
+				493537C21CD80F7D0071E524 /* _FBTweakDictionaryViewController.m */,
+				493537C31CD80F7D0071E524 /* _FBTweakTableViewCell.h */,
+				493537C41CD80F7D0071E524 /* _FBTweakTableViewCell.m */,
+				493537C51CD80F7D0071E524 /* FBTweak-Prefix.pch */,
+				493537C61CD80F7D0071E524 /* FBTweak.h */,
+				493537C71CD80F7D0071E524 /* FBTweak.m */,
+				493537C81CD80F7D0071E524 /* FBTweakCategory.h */,
+				493537C91CD80F7D0071E524 /* FBTweakCategory.m */,
+				493537CA1CD80F7D0071E524 /* FBTweakCollection.h */,
+				493537CB1CD80F7D0071E524 /* FBTweakCollection.m */,
+				493537CC1CD80F7D0071E524 /* FBTweakEnabled.h */,
+				493537CD1CD80F7D0071E524 /* FBTweakInline.h */,
+				493537CE1CD80F7D0071E524 /* FBTweakInline.m */,
+				493537CF1CD80F7D0071E524 /* FBTweakInlineInternal.h */,
+				493537D01CD80F7D0071E524 /* FBTweakShakeWindow.h */,
+				493537D11CD80F7D0071E524 /* FBTweakShakeWindow.m */,
+				493537D21CD80F7D0071E524 /* FBTweakStore.h */,
+				493537D31CD80F7D0071E524 /* FBTweakStore.m */,
+				493537D41CD80F7D0071E524 /* FBTweakViewController.h */,
+				493537D51CD80F7D0071E524 /* FBTweakViewController.m */,
+			);
+			path = FBTweak;
+			sourceTree = "<group>";
+		};
+		49AD836D1A76B512000683D0 = {
+			isa = PBXGroup;
+			children = (
+				493537991CD80F7D0071E524 /* JDMUtility */,
+				49D469D61C78236000D6546E /* lego.scn */,
+				49D806881AAA16B9009DFBB8 /* JDMNode.h */,
+				49D806891AAA16B9009DFBB8 /* JDMNode.m */,
+				49510A951ABF3F660006C55F /* JDMMesh.h */,
+				49510A961ABF3F660006C55F /* JDMMesh.m */,
+				49B4401B1AC4C58C0073A08B /* JDMGeometry.h */,
+				49B4401C1AC4C58C0073A08B /* JDMGeometry.m */,
+				49AD84161A7956D9000683D0 /* AVFoundation.framework */,
+				49AD83781A76B512000683D0 /* SceneKit Playground */,
+				49AD83941A76B512000683D0 /* SceneKit PlaygroundTests */,
+				49AD83771A76B512000683D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49AD83771A76B512000683D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49AD83761A76B512000683D0 /* SceneKit Playground.app */,
+				49AD83911A76B512000683D0 /* SceneKit PlaygroundTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49AD83781A76B512000683D0 /* SceneKit Playground */ = {
+			isa = PBXGroup;
+			children = (
+				49AD837D1A76B512000683D0 /* AppDelegate.h */,
+				49AD837E1A76B512000683D0 /* AppDelegate.m */,
+				49AD83801A76B512000683D0 /* art.scnassets */,
+				49AD83821A76B512000683D0 /* GameViewController.h */,
+				49AD83831A76B512000683D0 /* GameViewController.m */,
+				49D806871AAA1495009DFBB8 /* JDMCharacterNode.h */,
+				49D806851AAA1441009DFBB8 /* JDMCharacterNode.m */,
+				498E3D071A990ED40049741C /* JDMMotionProtocol.h */,
+				498E3D041A9182370049741C /* JDMMotionManager.h */,
+				498E3D051A9182370049741C /* JDMMotionManager.m */,
+				4963FF5D1A7EAE80001F45EB /* JDMTouchView.h */,
+				4963FF5E1A7EAE80001F45EB /* JDMTouchView.m */,
+				498E3D011A829CB30049741C /* JDMControlScrollView.h */,
+				498E3D021A829CB30049741C /* JDMControlScrollView.m */,
+				49AD83851A76B512000683D0 /* Main.storyboard */,
+				49AD83881A76B512000683D0 /* Images.xcassets */,
+				49AD838A1A76B512000683D0 /* LaunchScreen.xib */,
+				49AD83791A76B512000683D0 /* Supporting Files */,
+			);
+			path = "SceneKit Playground";
+			sourceTree = "<group>";
+		};
+		49AD83791A76B512000683D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49AD837A1A76B512000683D0 /* Info.plist */,
+				49AD837B1A76B512000683D0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49AD83941A76B512000683D0 /* SceneKit PlaygroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				49AD83971A76B512000683D0 /* SceneKit_PlaygroundTests.m */,
+				49AD83951A76B512000683D0 /* Supporting Files */,
+			);
+			path = "SceneKit PlaygroundTests";
+			sourceTree = "<group>";
+		};
+		49AD83951A76B512000683D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49AD83961A76B512000683D0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49AD83751A76B512000683D0 /* SceneKit Playground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49AD839B1A76B512000683D0 /* Build configuration list for PBXNativeTarget "SceneKit Playground" */;
+			buildPhases = (
+				49AD83721A76B512000683D0 /* Sources */,
+				49AD83731A76B512000683D0 /* Frameworks */,
+				49AD83741A76B512000683D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SceneKit Playground";
+			productName = "SceneKit Playground";
+			productReference = 49AD83761A76B512000683D0 /* SceneKit Playground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49AD83901A76B512000683D0 /* SceneKit PlaygroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49AD839E1A76B512000683D0 /* Build configuration list for PBXNativeTarget "SceneKit PlaygroundTests" */;
+			buildPhases = (
+				49AD838D1A76B512000683D0 /* Sources */,
+				49AD838E1A76B512000683D0 /* Frameworks */,
+				49AD838F1A76B512000683D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49AD83931A76B512000683D0 /* PBXTargetDependency */,
+			);
+			name = "SceneKit PlaygroundTests";
+			productName = "SceneKit PlaygroundTests";
+			productReference = 49AD83911A76B512000683D0 /* SceneKit PlaygroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49AD836E1A76B512000683D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Justin Madewell";
+				TargetAttributes = {
+					49AD83751A76B512000683D0 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = FZV5V4YB7K;
+					};
+					49AD83901A76B512000683D0 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 49AD83751A76B512000683D0;
+					};
+				};
+			};
+			buildConfigurationList = 49AD83711A76B512000683D0 /* Build configuration list for PBXProject "SceneKit Playground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49AD836D1A76B512000683D0;
+			productRefGroup = 49AD83771A76B512000683D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49AD83751A76B512000683D0 /* SceneKit Playground */,
+				49AD83901A76B512000683D0 /* SceneKit PlaygroundTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49AD83741A76B512000683D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D469D71C78236000D6546E /* lego.scn in Resources */,
+				49AD838C1A76B512000683D0 /* LaunchScreen.xib in Resources */,
+				49AD83891A76B512000683D0 /* Images.xcassets in Resources */,
+				49AD83811A76B512000683D0 /* art.scnassets in Resources */,
+				49AD83871A76B512000683D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49AD838F1A76B512000683D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49AD83721A76B512000683D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D806861AAA1441009DFBB8 /* JDMCharacterNode.m in Sources */,
+				493538101CD80F7D0071E524 /* FBTweakShakeWindow.m in Sources */,
+				493538071CD80F7D0071E524 /* _FBTweakColorViewController.m in Sources */,
+				4935380C1CD80F7D0071E524 /* FBTweak.m in Sources */,
+				493538041CD80F7D0071E524 /* _FBTweakBindObserver.m in Sources */,
+				493537FE1CD80F7D0071E524 /* _FBColorComponentCell.m in Sources */,
+				493537F91CD80F7D0071E524 /* BezierUtilities.m in Sources */,
+				493538051CD80F7D0071E524 /* _FBTweakCategoryViewController.m in Sources */,
+				4935380B1CD80F7D0071E524 /* _FBTweakTableViewCell.m in Sources */,
+				49AD837F1A76B512000683D0 /* AppDelegate.m in Sources */,
+				4935380E1CD80F7D0071E524 /* FBTweakCollection.m in Sources */,
+				493537F81CD80F7D0071E524 /* BaseGeometry.m in Sources */,
+				493538111CD80F7D0071E524 /* FBTweakStore.m in Sources */,
+				49AD83841A76B512000683D0 /* GameViewController.m in Sources */,
+				4935381B1CD80F7D0071E524 /* SceneKit Additions.m in Sources */,
+				49AD837C1A76B512000683D0 /* main.m in Sources */,
+				4935380D1CD80F7D0071E524 /* FBTweakCategory.m in Sources */,
+				493538061CD80F7D0071E524 /* _FBTweakCollectionViewController.m in Sources */,
+				4935380A1CD80F7D0071E524 /* _FBTweakDictionaryViewController.m in Sources */,
+				493538021CD80F7D0071E524 /* _FBSliderView.m in Sources */,
+				493538031CD80F7D0071E524 /* _FBTweakArrayViewController.m in Sources */,
+				493538121CD80F7D0071E524 /* FBTweakViewController.m in Sources */,
+				493538091CD80F7D0071E524 /* _FBTweakColorViewControllerRGBDataSource.m in Sources */,
+				498E3D061A9182370049741C /* JDMMotionManager.m in Sources */,
+				49B4401D1AC4C58C0073A08B /* JDMGeometry.m in Sources */,
+				493537FD1CD80F7D0071E524 /* Colours.m in Sources */,
+				49510A971ABF3F660006C55F /* JDMMesh.m in Sources */,
+				493538011CD80F7D0071E524 /* _FBKeyboardManager.m in Sources */,
+				493538001CD80F7D0071E524 /* _FBColorWheelCell.m in Sources */,
+				4963FF5F1A7EAE80001F45EB /* JDMTouchView.m in Sources */,
+				4935380F1CD80F7D0071E524 /* FBTweakInline.m in Sources */,
+				493538131CD80F7D0071E524 /* JDMGradientLayer.m in Sources */,
+				493537FF1CD80F7D0071E524 /* _FBColorUtils.m in Sources */,
+				493538081CD80F7D0071E524 /* _FBTweakColorViewControllerHSBDataSource.m in Sources */,
+				49D8068A1AAA16B9009DFBB8 /* JDMNode.m in Sources */,
+				498E3D031A829CB30049741C /* JDMControlScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49AD838D1A76B512000683D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49AD83981A76B512000683D0 /* SceneKit_PlaygroundTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49AD83931A76B512000683D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49AD83751A76B512000683D0 /* SceneKit Playground */;
+			targetProxy = 49AD83921A76B512000683D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49AD83851A76B512000683D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49AD83861A76B512000683D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49AD838A1A76B512000683D0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49AD838B1A76B512000683D0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49AD83991A76B512000683D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49AD839A1A76B512000683D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49AD839C1A76B512000683D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "SceneKit Playground/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.backslashDevelopment.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		49AD839D1A76B512000683D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "SceneKit Playground/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.backslashDevelopment.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		49AD839F1A76B512000683D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SceneKit PlaygroundTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.backslashDevelopment.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SceneKit Playground.app/SceneKit Playground";
+			};
+			name = Debug;
+		};
+		49AD83A01A76B512000683D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SceneKit PlaygroundTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.backslashDevelopment.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SceneKit Playground.app/SceneKit Playground";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49AD83711A76B512000683D0 /* Build configuration list for PBXProject "SceneKit Playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49AD83991A76B512000683D0 /* Debug */,
+				49AD839A1A76B512000683D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49AD839B1A76B512000683D0 /* Build configuration list for PBXNativeTarget "SceneKit Playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49AD839C1A76B512000683D0 /* Debug */,
+				49AD839D1A76B512000683D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49AD839E1A76B512000683D0 /* Build configuration list for PBXNativeTarget "SceneKit PlaygroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49AD839F1A76B512000683D0 /* Debug */,
+				49AD83A01A76B512000683D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49AD836E1A76B512000683D0 /* Project object */;
+}
